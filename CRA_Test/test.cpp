@@ -37,3 +37,8 @@ TEST(TestCaseName, GopTest) {
 		}
 	}
 }
+
+TEST(CalTest, Minus) {
+	int ret = getMinus(5, 3);
+	EXPECT_EQ(2, ret);
+}
