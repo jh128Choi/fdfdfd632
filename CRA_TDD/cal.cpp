@@ -1,3 +1,8 @@
+int getZegop(int val)
+{
+	return val * val;
+}
+ 
 int getSum(int a, int b)
 {
 	return (a + b);
