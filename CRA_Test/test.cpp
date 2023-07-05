@@ -15,3 +15,13 @@ TEST(TestCaseName, GopTest) {
 		}
 	}
 }
+
+TEST(TestCaseName, DivideTest) {
+	EXPECT_EQ(getDivide(20, 4), 5);
+	EXPECT_EQ(getDivide(200, 4), 50);
+	EXPECT_EQ(getDivide(20, 2), 10);
+	EXPECT_EQ(getDivide(20, 1), 20);
+	EXPECT_EQ(getDivide(20, 10), 2);
+	EXPECT_EQ(getDivide(120, 4), 30);
+	EXPECT_EQ(getDivide(2000, 500), 4);
+}
