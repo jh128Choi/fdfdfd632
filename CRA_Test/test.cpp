@@ -52,3 +52,8 @@ TEST(CalTest, Minus) {
 	int ret = getMinus(5, 3);
 	EXPECT_EQ(2, ret);
 }
+
+TEST(TestCaseName, getSumSumTest)
+{
+	EXPECT_EQ(6, getSumSum(1,2,3));
+}
